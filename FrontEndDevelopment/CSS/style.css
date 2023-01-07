@@ -1,0 +1,19 @@
+p{
+   color:green;
+}
+
+h1, h2{
+  color:red;
+} 
+
+#sp1{
+  background:grey;
+  font-style:italic;
+  color:white;
+}
+
+
+.sp2{
+   font-weight:600;
+}
+ 

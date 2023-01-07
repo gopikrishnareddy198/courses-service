@@ -1,0 +1,18 @@
+<html>
+ 
+
+ <body>
+    <textarea id="tArea"></textarea>
+    <br><button id="set-text-button">Set Text</button>
+    <button id="clear-text-button">Clear Text</button>
+ </body>
+
+ <script>
+   const textArea=document.getElementById("tArea");
+
+   const setTextButton=document.getElementById("set-text-button");
+   setTextButton.addEventListener('click',()=>{
+         textArea.textContent("This text is set after button click");
+   });
+ </script>
+</html>

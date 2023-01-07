@@ -1,0 +1,18 @@
+<!-- 8165290489 -->
+<head>
+ <title>Event Listners </title>
+</head>
+<body>
+<input type="text" id="textarea"/>
+<label id="displayText"></label>
+
+<script>
+const textArea=document.getElementById("textarea");
+const label=document.getElementById("displayText");
+
+textArea.addEventListener('keydown',(e)=>{
+       label.textContent=`You pressed the key: "${e.key}"`
+  }
+);
+</script>
+</body>
